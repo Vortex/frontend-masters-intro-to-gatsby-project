@@ -6,7 +6,7 @@ import '../styles/global.css';
 
 import { header, content } from '../styles/layout.module.css';
 
-export function Layout({
+export default function Layout({
   children,
   title = false,
   description = false,
